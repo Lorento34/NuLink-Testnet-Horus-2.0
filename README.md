@@ -150,10 +150,12 @@ source /root/nulink-venv/bin/activate
 ```
 python -c "import nulink"
 ```
+After entering the nulink --help command, you will get the following output
+
 ```
 nulink --help
 ```
-After entering the nulink --help command, you will get the following output
+Exmple:
 
 ![help](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/bb7cc207-5d21-4090-a7ca-b9baebf63da4)
 
