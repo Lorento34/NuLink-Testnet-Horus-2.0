@@ -24,3 +24,5 @@ About installing a node
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.23-d901d853.tar.gz
 ```
 
+2- Unzip the downloaded installation package
+
