@@ -15,6 +15,4 @@ About installing a node
  - Exposed TCP port 9151, make sure it's not occupied
  - Nodes can be run on cloud infrastructure
 
-
-<h1> [Original source for NuLink Worker Installer] <h6> (https://docs.nulink.org/products/stakers/nulink_worker)https://docs.nulink.org/products/stakers/nulink_worker
-
+<h1>NuLink Worker Installer steps<h6>
