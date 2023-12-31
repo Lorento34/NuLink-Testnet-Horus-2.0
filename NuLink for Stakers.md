@@ -1,2 +1,8 @@
 <h1>Staking Process Steps<h6>
-I will give information about staking. For information about other features of the platform, please go <a href="[http://www.google.com](https://docs.nulink.org/products/stakers)https://docs.nulink.org/products/stakers)https://docs.nulink.org/products/stakers)https://docs.nulink.org/products/stakers">here</a>.
+  
+For information about other features of the platform, please see the link below
+  
+https://docs.nulink.org/products/stakers
+
+
+After creating a worker account, please see the following guide for staking
