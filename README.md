@@ -10,3 +10,8 @@ About installing a node
  - 4 GB RAM
  - 30 GB HDD
  - İşlemci olarak kaynak dosyalarda net bir açıklamaya yok ama önerim 2 CPU
+html { font-size: 62.5%; /* font-size 1em = 10px on default browser settings */  }
+
+span { font-size: 1.6em; }
+
+<div> <span>Outer <span>inner</span> outer</span> </div>
