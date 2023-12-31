@@ -16,3 +16,9 @@ About installing a node
  - Nodes can be run on cloud infrastructure
 
 <h1>NuLink Worker Installer steps<h6>
+
+<h1> There are four steps to run a NuLink Worker:<h3>
+ - Create Worker Account
+ - Install NuLink Worker
+ - Configure and Run a Worker node
+ - Bond the Worker node with your staking account
