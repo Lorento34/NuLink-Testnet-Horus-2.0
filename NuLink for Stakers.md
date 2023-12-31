@@ -9,11 +9,15 @@ After creating a worker account, please see the following guide for staking
 
 ![1](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/2437ff81-1e2a-4ba3-9795-7231d654c6dc)
 
+
+
 2- You will be prompted to add the BNB Smart Chain Testnet network to your metamask and once you agree, the BNB Smart Chain Testnet network will be automatically added to your metamask. This warning will not appear if you have already added the BNB Smart Chain Testnet network to your metamask. 
 
 ![2](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/92d52ead-f494-4611-b2c3-6e87e4ee71fe)
 
-3- Click on the wallet icon on the top right and claim the test tokens.
+
+
+3- Click on the wallet icon on the top right and claim the test tokens. If you encounter a problem when requesting test tokens then try other browsers
 
 ![3](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/519736ab-fce9-4ba7-a288-3cb5d4315e1c)
 
