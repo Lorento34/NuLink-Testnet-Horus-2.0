@@ -15,10 +15,9 @@ About installing a node
  - Exposed TCP port 9151, make sure it's not occupied
  - Nodes can be run on cloud infrastructure
 
-<h1>NuLink Worker Installer steps<h6>
+<h1>NuLink Worker Installer steps for Ubuntu 20.4<h6>
 
-There are four steps to run a NuLink Worker:
-- Create Worker Account
-- Install NuLink Worker
-- Configure and Run a Worker node
-- Bond the Worker node with your staking account
+
+wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.23-d901d853.tar.gz
+
+
