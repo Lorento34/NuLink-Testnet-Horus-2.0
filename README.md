@@ -6,8 +6,12 @@ About installing a node
 
 [Minimum System Requirements](https://docs.nulink.org/products/stakers/nulink_worker#minimum-system-requirements)
 
- - Ubuntu 20.04
- - 4 GB RAM
- - 30 GB HDD
- - İşlemci olarak kaynak dosyalarda net bir açıklamaya yok ama önerim 2 CPU
+ - Debian/Ubuntu 20.04 (Recommended)
+ - 4 GB Ram
+ - 30GB Available Storage
+ - Minimum 2 CPU processors
+ - x86 Architecture
+ - Static IP address
+ - Exposed TCP port 9151, make sure it's not occupied
+ - Nodes can be run on cloud infrastructure
 
