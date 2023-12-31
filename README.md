@@ -160,9 +160,14 @@ Exmple:
 ![help](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/bb7cc207-5d21-4090-a7ca-b9baebf63da4)
 
 
-19- 
+19- Select a password with at least 8 characters to lock and unlock the private storage created by the NuLink Worker. It's important to remember this password for future access.
+```
+export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
+```
 
-
+```
+export NULINK_OPERATOR_ETH_PASSWORD=<YOUR WORKER ACCOUNT PASSWORD>
+```
 
 
 
