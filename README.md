@@ -161,7 +161,7 @@ Exmple:
 
 
 19- Select a password with at least 8 characters to lock and unlock the private storage created by the NuLink Worker. It's important to remember this password for future access.
-important information, use the password you created earlier. And edit the following codes according to your password
+important information, use the password you created earlier. And edit the following codes according to your password.
 
 ```
 export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
@@ -181,9 +181,41 @@ export NULINK_KEYSTORE_PASSWORD=12345678
 export NULINK_OPERATOR_ETH_PASSWORD=12345678
 ```
 
+20- Initialize Node Configuration. You will configure the configuration according to your own information.
 
+```
+docker run -it --rm \
+-p 9151:9151 \
+-v </path/to/host/machine/directory>:/code \
+-v </path/to/host/machine/directory>:/home/circleci/.local/share/nulink \
+-e NULINK_KEYSTORE_PASSWORD \
+nulink/nulink nulink ursula init \
+--signer <ETH KEYSTORE URI> \
+--eth-provider <NULINK PROVIDER URI>  \
+--network <NULINK NETWORK NAME> \
+--payment-provider <PAYMENT PROVIDER URI> \
+--payment-network <PAYMENT NETWORK NAME> \
+--operator-address <WORKER ADDRESS> \
+--max-gas-price <GWEI>
+```
 
+Example:
 
+```
+docker run -it --rm \
+-p 9151:9151 \
+-v /root/nulink:/code \
+-v /root/nulink:/home/circleci/.local/share/nulink \
+-e NULINK_KEYSTORE_PASSWORD \
+nulink/nulink nulink ursula init \
+--signer keystore:///code/UTC--2023-12-31T17-42-14.316243885Z--f3defb90c2f03e904bd9662a1f16dcd1ca69b00a \
+--eth-provider https://data-seed-prebsc-2-s2.binance.org:8545 \
+--network horus \
+--payment-provider https://data-seed-prebsc-2-s2.binance.org:8545 \
+--payment-network bsc_testnet \
+--operator-address 0xf3defb90c2f03e904bd9662a1f16dcd1ca69b00a \
+--max-gas-price 10000000000
+```
 
 
 
