@@ -16,8 +16,8 @@ About installing a node
  - Nodes can be run on cloud infrastructure
 
 <h1>NuLink Worker Installer steps for Ubuntu 20.4<h6>
- 
-Download Geth on your server 
+
+<p dir="auto">1- Download Geth on your server </p>
 
 ```
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.23-d901d853.tar.gz
