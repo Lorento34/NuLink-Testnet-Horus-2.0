@@ -37,3 +37,37 @@ wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.23-d90
 tar -xvzf geth-linux-amd64-1.10.23-d901d853.tar.gz
 ```
 
+4- Enter the unzipped directory
+
+```
+cd geth-linux-amd64-1.10.23-d901d853/
+```
+
+5- Use. / get account new -- keystore. / keystore to generate Ethereum account and keystore
+
+```
+./geth account new --keystore ./keystore
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
