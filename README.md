@@ -17,9 +17,9 @@ About installing a node
 
 <h1>NuLink Worker Installer steps for Ubuntu 20.4<h6>
 
+1 Download Geth on your server 
 
-1- Download Geth on your server 
- ```
+```
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.23-d901d853.tar.gz
 ```
 
