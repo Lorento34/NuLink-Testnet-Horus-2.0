@@ -1,6 +1,3 @@
-43434t34
-
-
 
 # NuLink Testnet Horus 2.0
 
