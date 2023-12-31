@@ -5,4 +5,8 @@ For information about other features of the platform, please check <a href="http
 After creating a worker account, please see the following guide for staking
 
 
-<p style="color:Tomato;">Merhaba Dünya</p>
+1- Go to <a href="https://dashboard.testnet.nulink.org/">NuLink.</a>
+
+![1](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/2437ff81-1e2a-4ba3-9795-7231d654c6dc)
+
+2- Go to https://dashboard.testnet.nulink.org/
