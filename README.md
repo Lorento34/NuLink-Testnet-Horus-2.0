@@ -49,7 +49,9 @@ cd geth-linux-amd64-1.10.23-d901d853/
 ./geth account new --keystore ./keystore
 ```
 
+6- After using ./geth account new --keystore ./keystore you will be asked to enter and confirm the password. Please remember this password for future use. Sample output should be as follows.
 
+![keys](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/b41caa54-2d62-47fb-a8ee-f861fd6ca894)
 
 
 
