@@ -134,10 +134,16 @@ wget https://download.nulink.org/release/core/nulink-0.5.0-py3-none-any.whl
 pip install nulink-0.5.0-py3-none-any.whl
 ```
 
-
-
-
-
+18- Before Verifying Setup, verify that your Nulink setup and entry points are functional.
+```
+source /root/nulink-venv/bin/activate
+```
+```
+python -c "import nulink"
+```
+```
+nulink --help
+```
 
 
 
