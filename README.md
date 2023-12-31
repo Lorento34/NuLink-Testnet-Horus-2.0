@@ -97,6 +97,53 @@ Example:
 cp /root/codespaces-blank/geth-linux-amd64-1.10.23-d901d853/keystore/UTC--2023-12-31T17-42-14.316243885Z--f3defb90c2f03e904bd9662a1f16dcd1ca69b00a /root/nulink
 ```
 
+11- Please ensure that this directory has 777 permissions.
+
+```
+chmod -R 777 /root/nulink
+```
+
+12- Install Python.
+
+```
+apt install python3-pip
+```
+
+13- Install virtual environment.
+```
+pip install virtualenv
+```
+
+14- Create a Virtual Environment.
+```
+virtualenv /root/nulink-venv
+```
+
+15- Activate the newly created virtual environment.
+```
+source /root/nulink-venv/bin/activate
+```
+16- Install the Nulink python package.
+
+```
+wget https://download.nulink.org/release/core/nulink-0.5.0-py3-none-any.whl
+```
+
+17- Install the python package.
+```
+pip install nulink-0.5.0-py3-none-any.whl
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
