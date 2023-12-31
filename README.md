@@ -161,6 +161,8 @@ Exmple:
 
 
 19- Select a password with at least 8 characters to lock and unlock the private storage created by the NuLink Worker. It's important to remember this password for future access.
+important information, use the password you created earlier. And edit the following codes according to your password
+
 ```
 export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
 ```
@@ -169,6 +171,15 @@ export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
 export NULINK_OPERATOR_ETH_PASSWORD=<YOUR WORKER ACCOUNT PASSWORD>
 ```
 
+Example:
+
+```
+export NULINK_KEYSTORE_PASSWORD=12345678
+```
+
+```
+export NULINK_OPERATOR_ETH_PASSWORD=12345678
+```
 
 
 
