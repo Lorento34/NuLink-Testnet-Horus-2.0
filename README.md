@@ -56,7 +56,8 @@ cd geth-linux-amd64-1.10.23-d901d853/
 
 7- Docker installation
 
-```sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
@@ -69,6 +70,39 @@ echo \
   
   sudo apt-get update
   
-  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
+  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 
-8- 
+8- Pull the latest NuLink image.
+
+```
+docker pull nulink/nulink:latest
+```
+
+9- Create a directory in your host machine for later usage.
+
+```
+cd /root
+mkdir nulink
+```
+10- cp /root/geth-linux-amd64-1.10.23-d901d853/keystore/* /root/nulink
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
