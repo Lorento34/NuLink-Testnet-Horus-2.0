@@ -18,20 +18,20 @@ About installing a node
 
 <h1>NuLink Worker Installer steps for Ubuntu 20.4<h6>
 
-1- First of all, if you are going to install other than vps providers with open ports such as Contabo, Hetzner, Linode, Digital Oceon. You must open port 9151 with the codes below or from the virtual server provider's own site.
+1- First of all, if you are going to install outside of vps providers where ports such as Contabo, Hetzner, Linode, Digital Oceon are open. You must open port 9151 with the codes below or from the virtual server provider's own site.
 
 ```
 sudo ufw enable
 sudo ufw allow 9151
 ```
 
-2- Download Geth on your server
+2- Download Geth on your server.
  
 ```
 wget https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.10.23-d901d853.tar.gz
 ```
 
-3- Unzip the downloaded installation package
+3- Unzip the downloaded installation package.
 
 ```
 tar -xvzf geth-linux-amd64-1.10.23-d901d853.tar.gz
