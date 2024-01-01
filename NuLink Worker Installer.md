@@ -114,6 +114,7 @@ cp /root/codespaces-blank/geth-linux-amd64-1.10.23-d901d853/keystore/UTC--2023-1
 ```
 chmod -R 777 /root/nulink
 ```
+<h1>An important information. If you are using docker then ignore step 11. step and 17. step continue directly from 18. step <h6>
 
 11- Install Python.
 
