@@ -116,57 +116,8 @@ cp /root/codespaces-blank/geth-linux-amd64-1.10.23-d901d853/keystore/UTC--2023-1
 ```
 chmod -R 777 /root/nulink
 ```
-<h1>An important information. If you are using docker then ignore step 11. step and 17. step. Continue directly from 18. step <h6>
 
-11- Install Python.
-
-```
-apt install python3-pip
-```
-
-12- Install virtual environment.
-```
-pip install virtualenv
-```
-
-13- Create a Virtual Environment.
-```
-virtualenv /root/nulink-venv
-```
-
-14- Activate the newly created virtual environment.
-```
-source /root/nulink-venv/bin/activate
-```
-15- Install the Nulink python package.
-
-```
-wget https://download.nulink.org/release/core/nulink-0.5.0-py3-none-any.whl
-```
-
-16- Install the python package.
-```
-pip install nulink-0.5.0-py3-none-any.whl
-```
-
-17- Before Verifying Setup, verify that your Nulink setup and entry points are functional.
-```
-source /root/nulink-venv/bin/activate
-```
-```
-python -c "import nulink"
-```
-After entering the nulink --help command, you will get the following output
-
-```
-nulink --help
-```
-Exmple:
-
-![help](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/bb7cc207-5d21-4090-a7ca-b9baebf63da4)
-
-
-18- Select a password with at least 8 characters to lock and unlock the private storage created by the NuLink Worker. It's important to remember this password for future access.
+11- Select a password with at least 8 characters to lock and unlock the private storage created by the NuLink Worker. It's important to remember this password for future access.
 important information, use the password you created earlier. And edit the following codes according to your password.
 
 ```
@@ -187,7 +138,7 @@ export NULINK_KEYSTORE_PASSWORD=12345678
 export NULINK_OPERATOR_ETH_PASSWORD=12345678
 ```
 
-19- Initialize Node Configuration. You will configure the configuration according to your own information.
+12- Initialize Node Configuration. You will configure the configuration according to your own information.
 
 ```
 docker run -it --rm \
@@ -224,7 +175,7 @@ nulink/nulink nulink ursula init \
 ```
 
 
-20- Launch the Node. The following command will start the node. Make sure you use the same host directory as the configuration.
+13- Launch the Node. The following command will start the node. Make sure you use the same host directory as the configuration.
 
 Remark1: You need to claim some BNB(test) token for Worker account as gas fee.
 Remark2: If you encounter error when starting Worker node, first please check that the port 9151 has not been occupied by other process. If still not working, please check there is only one configuration json file in the </path/to/host/machine/directory>
@@ -240,7 +191,7 @@ docker run --restart on-failure -d \
 nulink/nulink nulink ursula run --no-block-until-ready
 ```
 
-21- Check Node Status for Worker Account.
+14- Check Node Status for Worker Account.
 ```
 docker logs -f ursula
 ```
