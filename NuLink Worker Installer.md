@@ -180,9 +180,7 @@ nulink/nulink nulink ursula init \
 13- Launch the Node. The following command will start the node. Make sure you use the same host directory as the configuration.
 
 - Remark 1: You need to claim some BNB(test) token for Worker account as gas fee.
-- Remark 2: If you encounter error when starting Worker node, first please check that the port 9151 has not been occupied by other process. If still not working, please check there is only one configuration json
-
- file in the </path/to/host/machine/directory>
+- Remark 2: If you encounter error when starting Worker node, first please check that the port 9151 has not been occupied by other process. If still not working, please check there is only one configuration json file in the </path/to/host/machine/directory>
 
 ```
 docker run --restart on-failure -d \
