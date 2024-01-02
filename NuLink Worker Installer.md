@@ -48,8 +48,10 @@ tar -xvzf geth-linux-amd64-1.10.23-d901d853.tar.gz
 cd geth-linux-amd64-1.10.23-d901d853/
 ```
 
-5- Create Ethereum account and keystore. You will be asked to enter and confirm the password. Please remember this password for future use. Save the output of the public address of the key and the path to the Secret key file in a text document. You will use it in step 9 and step 12.
+5- Create Ethereum account and keystore. You will be asked to enter and confirm the password. Please remember this password for future use. 
 
+- Remark2: Save the output of the public address of the key and the path to the Secret key file in a text document. You will use it in step 9 and step 12.
+  
 ```
 ./geth account new --keystore ./keystore
 ```
