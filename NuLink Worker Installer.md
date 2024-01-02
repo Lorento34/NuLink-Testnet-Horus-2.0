@@ -50,7 +50,7 @@ cd geth-linux-amd64-1.10.23-d901d853/
 
 5- Create Ethereum account and keystore. You will be asked to enter and confirm the password. Please remember this password for future use. 
 
-- Remark2: Save the output of the public address of the key and the path to the Secret key file in a text document. You will use it in step 9 and step 12.
+- Remark: Save the output of the public address of the key and the path to the Secret key file in a text document. You will use it in step 9 and step 12.
   
 ```
 ./geth account new --keystore ./keystore
@@ -179,8 +179,8 @@ nulink/nulink nulink ursula init \
 
 13- Launch the Node. The following command will start the node. Make sure you use the same host directory as the configuration.
 
-- Remark1: You need to claim some BNB(test) token for Worker account as gas fee.
-- Remark2: If you encounter error when starting Worker node, first please check that the port 9151 has not been occupied by other process. If still not working, please check there is only one configuration json
+- Remark 1: You need to claim some BNB(test) token for Worker account as gas fee.
+- Remark 2: If you encounter error when starting Worker node, first please check that the port 9151 has not been occupied by other process. If still not working, please check there is only one configuration json
 
  file in the </path/to/host/machine/directory>
 
