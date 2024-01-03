@@ -75,7 +75,6 @@ Path of the secret key file: /root/geth-linux-amd64-1.10.23-d901d853/keystore/UT
 - You must BACKUP your key file! Without the key, it's impossible to access account funds!
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 ```
-
 6- Docker installation
 
 ```
@@ -103,20 +102,17 @@ sudo apt-get update
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-
 7- Pull the latest NuLink image.
 
 ```
 docker pull nulink/nulink:latest
 ```
-
 8- Create a directory in your host machine for later usage.
 
 ```
 cd /root
 mkdir nulink
 ```
-
 9- In step 5, you should edit the path to the secret key file given to you with the code below.
 
 ```
@@ -127,13 +123,11 @@ Example:
 ```
 cp /root/geth-linux-amd64-1.10.23-d901d853/keystore/UTC--2022-09-13T01-14-32.465358210Z--8b1819341bec211a45a2186c4d0030681ccce0ee /root/nulink
 ```
-
 10- Please ensure that this directory has 777 permissions.
 
 ```
 chmod -R 777 /root/nulink
 ```
-
 11- Select a password with at least 8 characters to lock and unlock the private storage created by the NuLink Worker. It's important to remember this password for future access.
 important information, use the password you created earlier. And edit the following codes according to your password.
 
@@ -144,7 +138,6 @@ export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
 ```
 export NULINK_OPERATOR_ETH_PASSWORD=<YOUR WORKER ACCOUNT PASSWORD>
 ```
-
 Example:
 
 ```
@@ -154,7 +147,6 @@ export NULINK_KEYSTORE_PASSWORD=12345678
 ```
 export NULINK_OPERATOR_ETH_PASSWORD=12345678
 ```
-
 12- Initialize Node Configuration. You will configure the configuration according to your own information.
 
 ```
@@ -172,7 +164,6 @@ nulink/nulink nulink ursula init \
 --operator-address <WORKER ADDRESS> \
 --max-gas-price <GWEI>
 ```
-
 Example:
 
 ```
@@ -190,8 +181,6 @@ nulink/nulink nulink ursula init \
 --operator-address 0xf3defb90c2f03e904bd9662a1f16dcd1ca69b00a \
 --max-gas-price 10000000000
 ```
-
-
 13- Launch the Node. The following command will start the node. Make sure you use the same host directory as the configuration.
 
 - Remark 1: You need to claim some BNB(test) token for Worker account as gas fee.
