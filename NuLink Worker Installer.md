@@ -75,6 +75,7 @@ Path of the secret key file: /root/geth-linux-amd64-1.10.23-d901d853/keystore/UT
 - You must BACKUP your key file! Without the key, it's impossible to access account funds!
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 ```
+
 6- Docker installation
 
 ```
