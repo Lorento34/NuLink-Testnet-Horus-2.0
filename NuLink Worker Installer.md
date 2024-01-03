@@ -196,7 +196,7 @@ nulink/nulink nulink ursula init \
 
 - Remark 1: You need to claim some BNB(test) token for Worker account as gas fee.
 - Remark 2: If you encounter error when starting Worker node, first please check that the port 9151 has not been occupied by other process.
-  If still not working, please check there is only one configuration json file in the </path/to/host/machine/directory>
+  
 ```
 docker run --restart on-failure -d \
 --name ursula \
@@ -212,15 +212,3 @@ nulink/nulink nulink ursula run --no-block-until-ready
 ```
 docker logs -f ursula
 ```
-
-
-
-
-
-
-
-
-
-
-
-
