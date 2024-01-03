@@ -57,9 +57,24 @@ cd geth-linux-amd64-1.10.23-d901d853/
 ```
 
 Example: Sample output should be as follows.
+```
+INFO [09-08|15:30:11.904] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-08|15:30:11.905] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password: 
+Repeat password: 
 
-![keys](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/b41caa54-2d62-47fb-a8ee-f861fd6ca894)
+Your new key was generated
 
+
+Public address of the key:   0x8B1819341BEc211a45a2186C4D0030681cccE0Ee
+Path of the secret key file: /root/geth-linux-amd64-1.10.23-d901d853/keystore/UTC--2022-09-13T01-14-32.465358210Z--8b1819341bec211a45a2186c4d0030681ccce0ee
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+```
 
 6- Docker installation
 
