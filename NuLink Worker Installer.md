@@ -3,6 +3,8 @@
 
 ![nlk](https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/assets/84406096/5942336a-d881-4c50-8504-63fc6609c957)
 
+Before Proceeding Make sure you Finish the Staking Task First:
+https://github.com/Lorento34/NuLink-Testnet-Horus-2.0/blob/main/NuLink%20for%20Stakers.md
 
 <h1>Minimum System Requirements<h6>
 
@@ -23,11 +25,12 @@
 apt install ufw -y
 ```
 ```
+ufw enable
 ufw allow ssh
 ufw allow https
 ufw allow http
 ufw allow 9151
-ufw enable
+
 ```
 
 2- Download Geth on your server.
@@ -113,11 +116,13 @@ docker pull nulink/nulink:latest
 ```
 cd /root
 mkdir nulink
+cd nulink
+
 ```
 9- In step 5, you should edit the path to the secret key file given to you with the code below.
 
 ```
-cp /root/geth-linux-amd64-1.10.23-d901d853/keystore/* /root/nulink
+cp /root/geth-linux-amd64-1.10.23-d901d853/keystore/”Insert the secret key file here” /root/nulink
 ```
 
 Example:
@@ -202,3 +207,13 @@ nulink/nulink nulink ursula run --no-block-until-ready
 ```
 docker logs -f ursula
 ```
+15- Send tBNB in your Worker Address, and it will work now.
+Working Logs Sample will Inout:
+Confirming operator address 0xbd4F8C5E is already confirmed
+learn_from_teacher_node stop now RELAX.
+
+16. Apply in the Form Below.
+https://docs.google.com/forms/d/e/1FAIpQLSdY2eXwQD-tKvJ_Ug-6hgdcWK_wUOZjXeJknw5XWSEO8gzJ2w/viewform
+
+Take Note: You need to run it up to 8 Epoch and needs up to 80% UpTime.
+Good luck! Paldow! 
